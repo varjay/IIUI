@@ -1,7 +1,3 @@
-<p>
-    <a href="https://github.com/youzan/"><img alt="logo" width="36px" src="https://img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png" alt="youzan">
-    </a>
-</p>
 <p align="center">
     <!-- <img alt="logo" src="" width="120" style="margin-bottom: 10px;"> -->
 </p>
@@ -18,9 +14,7 @@
 
 ## 特性
 
-* 50+ 个经过有赞线上业务检验的组件
-* 单元测试覆盖率超过 80%
-* 完善的中英文文档和示例
+* 经过线上业务检验的组件
 * 支持 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
 * 支持 TypeScript
 * 支持 SSR
@@ -107,38 +101,13 @@ Vue.use(IIUI);
 
 > 注意：配置 babel-plugin-import 插件后将不允许导入所有组件
 
-更多内容请参考 [快速上手](https://youzan.github.io/iiui#/zh-CN/quickstart).
-
 ## 贡献代码
 
-修改代码请阅读我们的 [开发指南](https://www.youzanyun.com/zanui/iiui#/zh-CN/contribution)。
-
-使用过程中发现任何问题都可以提 [Issue](https://github.com/youzan/iiui/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/youzan/iiui/pulls)。
+使用过程中发现任何问题都可以提 [Issue](https://github.com/varjay/IIUI/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/varjay/IIUI/pulls)。
 
 ## 浏览器支持
 
 现代浏览器以及 Android 4.0+, iOS 6+.
-
-## 链接
-
-* [详细文档](https://youzan.github.io/iiui)
-* [更新日志](https://youzan.github.io/iiui#/zh-CN/changelog)
-* [React 组件库](https://www.youzanyun.com/zanui/zent)
-* [微信小程序组件库](https://github.com/youzan/zanui-weapp)
-* [iiui-demo](https://github.com/youzan/iiui-demo)
-* [vue-cli-template-iiui](https://github.com/youzan/vue-cli-template-iiui)
-
-## 手机预览
-
-可以手机扫码以下二维码访问手机端 demo：
-
-<img src="https://img.yzcdn.cn/iiui/preview_qrcode_20180528.png" width="220" height="220" >
-
-## 微信讨论群
-
-欢迎大家加入 IIUI 交流群一起讨论，添加下方微信并注明『加入 IIUI 交流群』即可
-
-<img src="https://img.yzcdn.cn/iiui/wechat_20180606.png" width="220" height="292" >
 
 ## 开源协议
 

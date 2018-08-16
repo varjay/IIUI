@@ -14,7 +14,7 @@ import 'iiui/packages/iiui-css/src/button.css';
 import 'iiui/packages/iiui-css/src/checkbox.css';
 ```
 
-Then require the plugin in the postcss.config.js, and configure the variables according to project needs, you can view all the available variables in [profile](https://github.com/youzan/iiui/blob/dev/packages/iiui-css/src/common/var.css).
+Then require the plugin in the postcss.config.js, and configure the variables according to project needs, you can view all the available variables in profile.
 
 ```javascript
 module.exports = {
@@ -44,7 +44,7 @@ IIUI also support local build to custom themes.
 
 ```bash
 # Clone the repository
-git clone git@github.com:youzan/iiui.git
+git clone git@github.com:varjay/IIUI.git
 cd packages/iiui-css
 ```
 

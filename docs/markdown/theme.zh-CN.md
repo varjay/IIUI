@@ -14,7 +14,7 @@ import 'iiui/packages/iiui-css/src/button.css';
 import 'iiui/packages/iiui-css/src/checkbox.css';
 ```
 
-接着在 postcss.config.js 中引入所需的 postcss 插件，并根据项目需求配置颜色变量，所有可用的颜色变量请参考 [配置文件](https://github.com/youzan/iiui/blob/dev/packages/iiui-css/src/common/var.css)
+接着在 postcss.config.js 中引入所需的 postcss 插件，并根据项目需求配置颜色变量，所有可用的颜色变量请参考 [配置文件](https://github.com/varjay/IIUI/blob/dev/packages/iiui-css/src/common/var.css)
 
 ```javascript
 module.exports = {
@@ -46,7 +46,7 @@ module.exports = {
 
 ```bash
 # 克隆仓库
-git clone git@github.com:youzan/iiui.git
+git clone git@github.com:varjay/IIUI.git
 cd packages/iiui-css
 ```
 

@@ -18,7 +18,7 @@
 ### 初始化项目
 
 ```bash
-git clone git@github.com:youzan/iiui.git
+git clone git@github.com:varjay/IIUI.git
 
 cd iiui
 

@@ -38,4 +38,4 @@ Locale.add(messages);
 | 英语 | en-US |
 | 繁體中文 | zh-HK |
 
-在 [这里](https://github.com/youzan/vant/tree/dev/packages/locale/lang) 查看所有的 i18n 配置文件。
+在 [这里](https://github.com/varjay/IIUI/tree/dev/packages/locale/lang) 查看所有的 i18n 配置文件。

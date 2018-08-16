@@ -1,13 +1,5 @@
 ## Quickstart
 
-### Starter kit
-
-Use [vue-cli](https://github.com/vuejs/vue-cli) to create a iiui project.
-
-```shell
-vue init youzan/vue-cli-template-iiui projectName
-```
-
 ### Install
 
 #### NPM

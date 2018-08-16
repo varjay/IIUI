@@ -19,8 +19,6 @@
 
 ## Features
 
-* 50+ Reusable components
-* 80%+ Unit test coverage
 * Extensive documentation and demos
 * Support [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
 * Support TypeScript
@@ -98,10 +96,6 @@ Please make sure to read the [Contributing Guide](./.github/CONTRIBUTING.md) bef
 ## Browser Support
 
 Modern browsers and Android 4.0+, iOS 6+.
-
-## Links
-
-* [Changelog](https://youzan.github.io/iiui#/en-US/changelog)
 
 ## LICENSE
 

@@ -17,7 +17,7 @@ module.exports = {
           from: 'zh-CN',
           to: 'en-US'
         },
-        github: 'https://github.com/youzan/vant'
+        github: 'https://github.com/varjay/IIUI'
       }
     },
     nav: [
@@ -305,7 +305,7 @@ module.exports = {
           from: 'en-US',
           to: 'zh-CN'
         },
-        github: 'https://github.com/youzan/vant'
+        github: 'https://github.com/varjay/IIUI'
       }
     },
     nav: [
