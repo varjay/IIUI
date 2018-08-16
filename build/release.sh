@@ -13,9 +13,9 @@ then
   # build
   VERSION=$VERSION npm run build:lib
 
-  # publish vant-css
-  echo "Releasing vant-css $VERSION ..."
-  cd packages/vant-css
+  # publish ii-css
+  echo "Releasing ii-css $VERSION ..."
+  cd packages/ii-css
   npm version $VERSION
   npm publish
   cd ../..
