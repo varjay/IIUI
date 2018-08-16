@@ -1,0 +1,11 @@
+@import './common/var.css';
+
+.ii-col {
+  float: left;
+  box-sizing: border-box;
+}
+
+@for $i from 1 to 24 {
+  .ii-col--$i { width: calc($i * 100% / 24); }
+  .ii-col--offset-$i { margin-left: calc($i * 100% / 24); }
+}

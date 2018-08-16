@@ -1,0 +1,37 @@
+@import './common/var.css';
+
+.ii-collapse-item {
+  &__title {
+    .ii-cell__right-icon::before {
+      transition: .3s;
+      transform: rotate(90deg);
+    }
+
+    &::after {
+      visibility: hidden;
+    }
+  }
+
+  &__wrapper {
+    overflow: hidden;
+    will-change: height;
+    transition: height .3s ease-in-out;
+  }
+
+  &__content {
+    padding: 15px;
+    background-color: #fff;
+  }
+
+  &--expanded {
+    .ii-collapse-item__title {
+      .ii-cell__right-icon::before {
+        transform: rotate(-90deg);
+      }
+
+      &::after {
+        visibility: visible;
+      }
+    }
+  }
+}

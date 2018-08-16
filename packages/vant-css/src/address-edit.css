@@ -1,0 +1,35 @@
+@import './common/var.css';
+
+.ii-address-edit {
+  &__buttons {
+    padding: 20px 10px;
+
+    .ii-button {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__area {
+    .ii-cell__title {
+      max-width: 90px;
+    }
+
+    .ii-cell__value {
+      text-align: left;
+
+      span {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .ii-icon-clear {
+    color: $gray-dark;
+  }
+
+  &-detail__finish {
+    color: $blue;
+    font-size: 12px;
+    display: block;
+  }
+}
