@@ -72,19 +72,6 @@ module.exports = {
               {
                 path: '/button',
                 title: 'Button 按钮'
-              },
-              {
-                path: '/lazyload',
-                title: 'Lazyload 图片懒加载'
-              }
-            ]
-          },
-          {
-            groupName: '高阶组件',
-            list: [
-              {
-                path: '/cell-swipe',
-                title: 'CellSwipe 滑动单元格'
               }
             ]
           }

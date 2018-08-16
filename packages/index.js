@@ -1,9 +1,8 @@
 // This file is auto gererated by build/build-entry.js
 import Button from './button';
-import Lazyload from './lazyload';
 import Locale from './locale';
 
-const version = '0.0.3';
+const version = '0.0.4';
 const components = [
   Button,
   Locale
@@ -24,7 +23,6 @@ export {
   install,
   version,
   Button,
-  Lazyload,
   Locale
 };
 
