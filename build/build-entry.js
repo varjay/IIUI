@@ -20,6 +20,11 @@ function buildVantEntry() {
   const content = `${tips}
 ${importList.join('\n')}
 
+var rem = (window.rem = document.documentElement.clientWidth / 16)
+var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
+document.querySelector('html').style.fontSize = rem + 'px'
+document.body.style.fontSize = em + 'px'
+
 const version = '${version}';
 const components = [
   ${intallList.join(',\n  ')}

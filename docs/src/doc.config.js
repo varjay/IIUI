@@ -69,6 +69,14 @@ module.exports = {
                 path: '/image-preview',
                 title: '示例组件'
               },
+              {
+                path: '/cell',
+                title: 'Cell 单元格'
+              },
+              {
+                path: '/icon',
+                title: 'Icon 图标'
+              },
             ]
           }
         ]

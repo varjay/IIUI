@@ -1,0 +1,96 @@
+@import './common/var.css';
+
+.ii-cell {
+  width: 100%;
+  display: flex;
+  padding: .49em .7rem;
+  box-sizing: border-box;
+  line-height: 1.15em;
+  position: relative;
+  background-color: $white;
+  color: $text-color;
+  overflow: hidden;
+
+  &:not(:last-child)::after {
+    left: .7rem;
+    right: 0;
+    width: auto;
+    transform: scale(1, .5);
+    border-bottom-width: 1px;
+  }
+
+  &-group {
+    background-color: $white;
+  }
+
+  &__label {
+    font-size: .65em;
+    line-height: 1.2;
+    color: $gray-darker;
+  }
+
+  &__title,
+  &__value {
+    flex: 1;
+    font-size: .65em;
+  }
+
+  &__value {
+    overflow: hidden;
+    text-align: right;
+    position: relative;
+    vertical-align: middle;
+
+    &--alone {
+      text-align: left;
+    }
+  }
+
+  &__left-icon {
+    min-width: 1em;
+    font-size: 16px;
+    line-height: 1.15em;
+    margin-right: 5px;
+  }
+
+  &__right-icon {
+    color: $gray-dark;
+    font-size: .65em;
+    line-height: 1.15em;
+    margin-left: 5px;
+
+    &--left::before {
+      transform: rotate(180deg);
+    }
+
+    &--up::before {
+      transform: rotate(-90deg);
+    }
+
+    &--down::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  &--clickable {
+    &:active {
+      background-color: $active-color;
+    }
+  }
+
+  &--required {
+    overflow: visible;
+
+    &::before {
+      content: '*';
+      position: absolute;
+      left: 7px;
+      font-size: .65em;
+      color: $red;
+    }
+  }
+
+  &--center {
+    align-items: center;
+  }
+}
