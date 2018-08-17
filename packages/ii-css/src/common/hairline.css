@@ -1,6 +1,6 @@
 @import "../mixins/border-retina.css";
 
-[class*='van-hairline'] {
+[class*='ii-hairline'] {
   position: relative;
 
   &::after {

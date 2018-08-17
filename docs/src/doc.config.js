@@ -35,16 +35,8 @@ module.exports = {
                 title: '快速上手'
               },
               {
-                path: '/changelog',
-                title: '更新日志'
-              },
-              {
                 path: '/ii-css',
                 title: '内置样式'
-              },
-              {
-                path: '/theme',
-                title: '定制主题'
               },
               {
                 path: '/contribution',
@@ -54,10 +46,6 @@ module.exports = {
                 path: '/style-guide',
                 title: '风格指南'
               },
-              {
-                path: '/locale',
-                title: '国际化'
-              }
             ]
           }
         ]
