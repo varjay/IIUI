@@ -2,7 +2,7 @@
 import Button from './button';
 import Locale from './locale';
 
-const version = '0.0.4';
+const version = '0.0.8';
 const components = [
   Button,
   Locale

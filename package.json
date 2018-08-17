@@ -1,6 +1,6 @@
 {
   "name": "iiui",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "description": "Lightweight Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "bootstrap": "yarn || npm i && cd ./packages/ii-css/ && yarn || npm i && cd ../../",
-    "dev": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
+    "dev2": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
+    "dev": "webpack-dev-server --mode development --config build/webpack.dev2.js",
     "lint": "eslint ./packages --ext .js,.vue && stylelint \"packages/ii-css/src/*.css\"",
     "build:components": "node build/build-components.js --color",
     "build:ii-css": "gulp build --gulpfile packages/ii-css/gulpfile.js --color --silent",
@@ -112,6 +113,7 @@
     "vue-template-es2015-compiler": "^1.6.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
     "webpack-serve": "^2.0.2"
   }
 }
