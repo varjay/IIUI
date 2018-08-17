@@ -4,7 +4,7 @@ import Example from './example';
 import ImagePreview from './image-preview';
 import Locale from './locale';
 
-const version = '0.0.8';
+const version = '0.0.10';
 const components = [
   Button,
   Example,

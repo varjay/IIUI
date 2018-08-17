@@ -102,7 +102,7 @@ module.exports = {
   //   ],
   // },
   devServer: {
-    // contentBase: path.join(__dirname, "../"),
+    contentBase: path.join(__dirname, "../docs/public"),
     compress: true,
     hot: true,
     https: false,
