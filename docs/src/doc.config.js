@@ -72,6 +72,10 @@ module.exports = {
               {
                 path: '/button',
                 title: 'Button 按钮'
+              },
+              {
+                path: '/example',
+                title: '示例组件'
               }
             ]
           }

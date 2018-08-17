@@ -13,6 +13,8 @@ export default {
   'theme.zh-CN': () => import('../markdown/theme.zh-CN.md'),
   'button.en-US': () => import('../../packages/button/en-US.md'),
   'button.zh-CN': () => import('../../packages/button/zh-CN.md'),
+  'example.en-US': () => import('../../packages/example/en-US.md'),
+  'example.zh-CN': () => import('../../packages/example/zh-CN.md'),
   'ii-css.en-US': () => import('../../packages/ii-css/en-US.md'),
   'ii-css.zh-CN': () => import('../../packages/ii-css/zh-CN.md'),
   'locale.en-US': () => import('../../packages/locale/en-US.md'),

@@ -1,10 +1,12 @@
 // This file is auto gererated by build/build-entry.js
 import Button from './button';
+import Example from './example';
 import Locale from './locale';
 
 const version = '0.0.8';
 const components = [
   Button,
+  Example,
   Locale
 ];
 
@@ -23,6 +25,7 @@ export {
   install,
   version,
   Button,
+  Example,
   Locale
 };
 
