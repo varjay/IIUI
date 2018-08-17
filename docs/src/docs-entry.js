@@ -17,6 +17,8 @@ export default {
   'example.zh-CN': () => import('../../packages/example/zh-CN.md'),
   'ii-css.en-US': () => import('../../packages/ii-css/en-US.md'),
   'ii-css.zh-CN': () => import('../../packages/ii-css/zh-CN.md'),
+  'image-preview.en-US': () => import('../../packages/image-preview/en-US.md'),
+  'image-preview.zh-CN': () => import('../../packages/image-preview/zh-CN.md'),
   'locale.en-US': () => import('../../packages/locale/en-US.md'),
   'locale.zh-CN': () => import('../../packages/locale/zh-CN.md')
 };

@@ -76,7 +76,11 @@ module.exports = {
               {
                 path: '/example',
                 title: '示例组件'
-              }
+              },
+              {
+                path: '/image-preview',
+                title: '示例组件'
+              },
             ]
           }
         ]
