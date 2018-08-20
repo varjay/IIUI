@@ -1,7 +1,7 @@
 <template>
   <demo-section>
     <demo-block title="图片预览">
-      <img class='img-dome' @click="imgShow($event,true)" src='1.jpg' alt="">
+      <img class='img-dome' @click="imgShow($event,true)" src='/img/1.jpg' alt="">
       <ii-image-preview
         v-if="imgDisplay"
         :imgSrc="imgSrc"

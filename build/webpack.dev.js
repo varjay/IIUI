@@ -19,6 +19,7 @@ module.exports = {
     children: false
   },
   serve: {
+    content: path.join(__dirname, "../docs/public"),
     open: true,
     host: '0.0.0.0',
     devMiddleware: {

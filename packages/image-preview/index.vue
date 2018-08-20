@@ -1,5 +1,5 @@
 <template>
-  <div class="Image-enlargement">
+  <div class="image-enlargement">
     <transition
       @enter="enter"
       @after-enter="afterEnter"
