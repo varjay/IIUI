@@ -11,7 +11,7 @@
     @click="onClick"
   >
     <slot name="icon">
-      <!-- <icon v-if="icon" :class="b('left-icon')" :name="icon" /> -->
+      <ii-icon v-if="icon" :class="b('left-icon')" :name="icon" />
     </slot>
     <div v-if="isDef(title) || $slots.title" :class="b('title')">
       <slot name="title">

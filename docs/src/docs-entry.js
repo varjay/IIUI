@@ -23,6 +23,12 @@ export default {
   'ii-css.zh-CN': () => import('../../packages/ii-css/zh-CN.md'),
   'image-preview.en-US': () => import('../../packages/image-preview/en-US.md'),
   'image-preview.zh-CN': () => import('../../packages/image-preview/zh-CN.md'),
+  'loading.en-US': () => import('../../packages/loading/en-US.md'),
+  'loading.zh-CN': () => import('../../packages/loading/zh-CN.md'),
   'locale.en-US': () => import('../../packages/locale/en-US.md'),
-  'locale.zh-CN': () => import('../../packages/locale/zh-CN.md')
+  'locale.zh-CN': () => import('../../packages/locale/zh-CN.md'),
+  'switch.en-US': () => import('../../packages/switch/en-US.md'),
+  'switch.zh-CN': () => import('../../packages/switch/zh-CN.md'),
+  'switch-cell.en-US': () => import('../../packages/switch-cell/en-US.md'),
+  'switch-cell.zh-CN': () => import('../../packages/switch-cell/zh-CN.md')
 };

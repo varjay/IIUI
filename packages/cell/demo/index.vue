@@ -13,9 +13,9 @@
       </div>
     </demo-block>
 
-    <demo-block :title="$t('title3')">
+    <demo-block title="展示图标">
       <div class="ii-hairline--top-bottom">
-        <ii-cell :title="$t('cell')" icon="location" />
+        <ii-cell :title="$t('cell')" icon="settings" />
       </div>
     </demo-block>
 

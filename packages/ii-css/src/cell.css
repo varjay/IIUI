@@ -3,7 +3,7 @@
 .ii-cell {
   width: 100%;
   display: flex;
-  padding: .49em .7rem;
+  padding: .4em .7rem;
   box-sizing: border-box;
   line-height: 1.15em;
   position: relative;
@@ -24,7 +24,7 @@
   }
 
   &__label {
-    font-size: .65em;
+    font-size: .8em;
     line-height: 1.2;
     color: $gray-darker;
   }
@@ -32,7 +32,7 @@
   &__title,
   &__value {
     flex: 1;
-    font-size: .65em;
+    font-size: .8em;
   }
 
   &__value {
@@ -55,7 +55,7 @@
 
   &__right-icon {
     color: $gray-dark;
-    font-size: .65em;
+    font-size: .8em;
     line-height: 1.15em;
     margin-left: 5px;
 
@@ -85,7 +85,7 @@
       content: '*';
       position: absolute;
       left: 7px;
-      font-size: .65em;
+      font-size: .8em;
       color: $red;
     }
   }

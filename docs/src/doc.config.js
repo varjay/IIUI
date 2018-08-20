@@ -73,6 +73,18 @@ module.exports = {
                 path: '/icon',
                 title: 'Icon 图标'
               },
+              {
+                path: '/loading',
+                title: 'Loading 加载'
+              },
+              {
+                path: '/switch',
+                title: 'Switch 开关'
+              },
+              {
+                path: '/switch-cell',
+                title: 'SwitchCell 开关单元格'
+              },
             ]
           }
         ]

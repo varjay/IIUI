@@ -4,21 +4,27 @@ import Cell from './cell';
 import Example from './example';
 import Icon from './icon';
 import ImagePreview from './image-preview';
+import Loading from './loading';
 import Locale from './locale';
+import Switch from './switch';
+import SwitchCell from './switch-cell';
 
 var rem = (window.rem = document.documentElement.clientWidth / 16)
 var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.12';
+const version = '0.0.14';
 const components = [
   Button,
   Cell,
   Example,
   Icon,
   ImagePreview,
-  Locale
+  Loading,
+  Locale,
+  Switch,
+  SwitchCell
 ];
 
 const install = Vue => {
@@ -40,7 +46,10 @@ export {
   Example,
   Icon,
   ImagePreview,
-  Locale
+  Loading,
+  Locale,
+  Switch,
+  SwitchCell
 };
 
 export default {
