@@ -19,6 +19,10 @@ module.exports = {
     children: false
   },
   serve: {
+    overlay: {
+      warnings: true,
+      errors: true,
+    },
     content: path.join(__dirname, "../docs/public"),
     open: true,
     host: '0.0.0.0',
@@ -38,6 +42,16 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.(js|vue)$/,
+        loader: 'eslint-loader',
+        enforce: 'pre',
+        include: path.join(__dirname, '../packages'),
+        exclude: /node_modules/,
+        options: {
+          formatter: require('eslint-friendly-formatter')
+        }
+      },
       {
         test: /\.vue$/,
         use: [
