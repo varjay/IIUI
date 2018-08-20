@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      test: '这是domo里面的文本：'
+      test: '这是domo里面的文本：',
     }
   }
 };

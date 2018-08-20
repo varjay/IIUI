@@ -11,7 +11,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.11';
+const version = '0.0.12';
 const components = [
   Button,
   Cell,

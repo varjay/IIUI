@@ -11,7 +11,7 @@ const tasks = [
   'build:components',
   'build:ii-css',
   'build:style-entry',
-  'build:vant'
+  'build:iiui'
 ];
 
 tasks.forEach(task => {

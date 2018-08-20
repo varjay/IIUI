@@ -1,12 +1,13 @@
 @import './common/var.css';
 
+/*ii-icon*/
 @font-face {
   font-family: 'ii-icon';  /* project id 798036 */
-  src: url('//at.alicdn.com/t/font_798036_7govpx0qtpk.eot');
-  src: url('//at.alicdn.com/t/font_798036_7govpx0qtpk.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_798036_7govpx0qtpk.woff') format('woff'),
-  url('//at.alicdn.com/t/font_798036_7govpx0qtpk.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_798036_7govpx0qtpk.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_798036_0q8svwxeyc7.eot');
+  src: url('//at.alicdn.com/t/font_798036_0q8svwxeyc7.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_798036_0q8svwxeyc7.woff') format('woff'),
+  url('//at.alicdn.com/t/font_798036_0q8svwxeyc7.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_798036_0q8svwxeyc7.svg#iconfont') format('svg');
 }
 
 .ii-icon {
@@ -40,5 +41,11 @@
 
 .ii-icon-arrow::before {
   content: "\E603";
+}
+.ii-icon-money::before {
+  content: "\E671";
+}
+.ii-icon-settings::before {
+  content: "\E604";
 }
 

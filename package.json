@@ -1,6 +1,6 @@
 {
   "name": "iiui",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Lightweight Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -19,7 +19,7 @@
     "lint": "eslint ./packages --ext .js,.vue && stylelint \"packages/ii-css/src/*.css\"",
     "build:components": "node build/build-components.js --color",
     "build:ii-css": "gulp build --gulpfile packages/ii-css/gulpfile.js --color --silent",
-    "build:ii": "cross-env NODE_ENV=production webpack --color --config build/webpack.build.js && cross-env NODE_ENV=production webpack -p --color --config build/webpack.build.js",
+    "build:iiui": "cross-env NODE_ENV=production webpack --color --config build/webpack.build.js && cross-env NODE_ENV=production webpack -p --color --config build/webpack.build.js",
     "build:style-entry": "node build/build-style-entry.js",
     "build:changelog": "ii-doc changelog ./docs/markdown/changelog.generated.md",
     "build:iconfont": "gulp --gulpfile ./build/build-iconfont.js",
@@ -28,8 +28,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "open test/coverage/index.html",
-    "release": "sh build/release.sh",
-    "precommit": "lint-staged"
+    "release": "sh build/release.sh"
   },
   "lint-staged": {
     "*.{js,vue}": [

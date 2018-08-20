@@ -28,8 +28,12 @@ export default {
   width: 3em;
   height: 3em;
   text-align: center;
+  float: left;
   i {
     font-size: 1.4em;
+  }
+  span {
+    font-size: .6em;
   }
 }
 </style>
