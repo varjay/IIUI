@@ -29,7 +29,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "open test/coverage/index.html",
     "release": "sh build/release.sh",
-    "precommit": "lint-staged",
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,vue}": [
