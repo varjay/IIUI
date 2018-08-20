@@ -1,18 +1,18 @@
 <template>
-  <cell center :title="title" :border="border" :class="b()">
-    <van-switch v-bind="$props" @input="$emit('input', $event)" />
-  </cell>
+  <ii-cell center :title="title" :border="border" :class="b()">
+    <ii-switch v-bind="$props" @input="$emit('input', $event)" />
+  </ii-cell>
 </template>
 
 <script>
-import VanSwitch from '../switch';
+import IISwitch from '../switch';
 import create from '../utils/create';
 
 export default create({
   name: 'switch-cell',
 
   components: {
-    VanSwitch
+    IISwitch
   },
 
   props: {
