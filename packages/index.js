@@ -1,6 +1,7 @@
 // This file is auto gererated by build/build-entry.js
 import Button from './button';
 import Cell from './cell';
+import CellGroup from './cell-group';
 import Example from './example';
 import Icon from './icon';
 import ImagePreview from './image-preview';
@@ -14,10 +15,11 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.14';
+const version = '0.0.15';
 const components = [
   Button,
   Cell,
+  CellGroup,
   Example,
   Icon,
   ImagePreview,
@@ -43,6 +45,7 @@ export {
   version,
   Button,
   Cell,
+  CellGroup,
   Example,
   Icon,
   ImagePreview,

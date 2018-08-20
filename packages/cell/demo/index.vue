@@ -1,10 +1,10 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <div class="ii-hairline--top-bottom">
+      <ii-cell-group>
         <ii-cell :title="$t('cell')" :value="$t('content')" />
         <ii-cell :title="$t('cell')" :value="$t('content')" :label="$t('desc')" />
-      </div>
+      </ii-cell-group>
     </demo-block>
 
     <demo-block :title="$t('title2')">
@@ -20,15 +20,15 @@
     </demo-block>
 
     <demo-block :title="$t('title4')">
-      <div class="ii-hairline--top-bottom">
+      <ii-cell-group>
         <ii-cell :title="$t('cell')" is-link />
         <ii-cell :title="$t('cell')" is-link :value="$t('content')" />
         <ii-cell :title="$t('cell')" is-link arrow-direction="down" :value="$t('content')" />
-      </div>
+      </ii-cell-group>
     </demo-block>
 
     <demo-block :title="$t('advancedUsage')">
-      <div class="ii-hairline--top-bottom">
+      <ii-cell-group>
         <ii-cell :value="$t('content')" icon="shop" is-link>
           <template slot="title">
             <span class="van-cell-text">{{ $t('cell') }}</span>
@@ -37,7 +37,7 @@
         <ii-cell :title="$t('cell')" icon="location" is-link />
         <ii-cell :title="$t('cell')">
         </ii-cell>
-      </div>
+      </ii-cell-group>
     </demo-block>
   </demo-section>
 </template>
