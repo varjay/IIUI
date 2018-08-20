@@ -62,12 +62,8 @@ module.exports = {
                 title: 'Button 按钮'
               },
               {
-                path: '/example',
-                title: '示例组件'
-              },
-              {
                 path: '/image-preview',
-                title: '示例组件'
+                title: 'ImagePreview 图片预览'
               },
               {
                 path: '/cell',

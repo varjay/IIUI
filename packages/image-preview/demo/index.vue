@@ -1,8 +1,17 @@
 <template>
   <demo-section>
     <demo-block title="图片预览">
-      <em>{{test}}</em>
-      <ii-image-preview></ii-image-preview>
+      <img class='img-dome' @click="imgShow($event,true)" src='1.jpg' alt="">
+      <ii-image-preview
+        v-if="imgDisplay"
+        :imgSrc="imgSrc"
+        :topNum="topNum"
+        :leftNum="leftNum"
+        :widthNum="widthNum"
+        :heightNum="heightNum"
+        @imgShow="imgShow"
+      >
+      </ii-image-preview>
     </demo-block>
   </demo-section>
 </template>
@@ -11,9 +20,22 @@
 export default {
   data() {
     return {
-      test: '这是domo里面的文本：'
+      imgDisplay: false,
+    }
+  },
+  methods: {
+    imgShow (a, e) {
+      if (a) {
+        this.imgSrc = a.target.src
+        this.topNum = a.target.y
+        this.leftNum = a.target.x
+        this.widthNum = a.target.offsetWidth
+        this.heightNum = a.target.offsetHeight
+      }
+      this.imgDisplay = e
     }
   }
+
 };
 </script>
 
@@ -21,4 +43,11 @@ export default {
 em{
   color: red;
 }
+  .img-dome{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 20%;
+    width: 50%;
+  }
 </style>
