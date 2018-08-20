@@ -14,8 +14,8 @@
   ],
   "scripts": {
     "bootstrap": "yarn || npm i && cd ./packages/ii-css/ && yarn || npm i && cd ../../",
-    "dev2": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
-    "dev": "node build/build-entry.js && webpack-dev-server --mode development --config build/webpack.dev2.js",
+    "dev": "node build/build-entry.js && webpack-serve --config build/webpack.dev.js",
+    "dev2": "node build/build-entry.js && webpack-dev-server --mode development --config build/webpack.dev2.js",
     "lint": "eslint ./packages --ext .js,.vue && stylelint \"packages/ii-css/src/*.css\"",
     "build:components": "node build/build-components.js --color",
     "build:ii-css": "gulp build --gulpfile packages/ii-css/gulpfile.js --color --silent",

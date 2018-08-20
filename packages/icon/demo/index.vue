@@ -13,7 +13,6 @@
 
 <script>
 import icons from '../../../packages/icon/config';
-console.log(icons)
 export default {
 
   data() {
