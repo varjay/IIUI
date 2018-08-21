@@ -25,7 +25,7 @@ module.exports = {
     },
     content: path.join(__dirname, "../docs/public"),
     open: true,
-    host: '0.0.0.0',
+    host: '192.168.101.252',
     devMiddleware: {
       logLevel: 'warn'
     },

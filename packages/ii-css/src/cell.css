@@ -26,7 +26,7 @@
   &__label {
     font-size: .8em;
     line-height: 1.2;
-    color: $gray-darker;
+    color: $gray-dark;
   }
 
   &__title,
@@ -35,12 +35,20 @@
     font-size: .8em;
   }
 
+  &__title {
+    &--center {
+      text-align: center;
+    }
+  }
+
   &__value {
     overflow: hidden;
     text-align: right;
     position: relative;
     vertical-align: middle;
-
+    font-size: .65em;
+    color: $gray-dark;
+    flex: 2;
     &--alone {
       text-align: left;
     }
@@ -48,16 +56,16 @@
 
   &__left-icon {
     min-width: 1em;
-    font-size: 16px;
+    transform: scale(1.25);
     line-height: 1.15em;
-    margin-right: 5px;
+    margin-right: .7em;
   }
 
   &__right-icon {
     color: $gray-dark;
-    font-size: .8em;
+    font-size: .8em !important;
     line-height: 1.15em;
-    margin-left: 5px;
+    margin-left: .7em;
 
     &--left::before {
       transform: rotate(180deg);

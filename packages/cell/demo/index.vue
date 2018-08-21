@@ -2,7 +2,8 @@
   <demo-section>
     <demo-block :title="$t('basicUsage')">
       <ii-cell-group>
-        <ii-cell :title="$t('cell')" :value="$t('content')" />
+        <ii-cell :title="$t('cell')" value="内容" />
+        <ii-cell :title="$t('cell')" value="这是一段比较长的内容，当换行时候的情况是这样的！" />
         <ii-cell :title="$t('cell')" :value="$t('content')" :label="$t('desc')" />
       </ii-cell-group>
     </demo-block>
@@ -27,14 +28,14 @@
       </ii-cell-group>
     </demo-block>
 
-    <demo-block :title="$t('advancedUsage')">
+    <demo-block title="高级用法">
       <ii-cell-group>
-        <ii-cell :value="$t('content')" icon="shop" is-link>
+        <ii-cell :value="$t('content')" icon="money" is-link>
           <template slot="title">
             <span class="van-cell-text">{{ $t('cell') }}</span>
           </template>
         </ii-cell>
-        <ii-cell :title="$t('cell')" icon="location" is-link />
+        <ii-cell :title="$t('cell')" icon="settings" is-link />
         <ii-cell :title="$t('cell')">
         </ii-cell>
       </ii-cell-group>
