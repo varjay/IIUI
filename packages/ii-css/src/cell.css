@@ -48,7 +48,6 @@
     vertical-align: middle;
     font-size: .65em;
     color: $gray-dark;
-    flex: 2;
     &--alone {
       text-align: left;
     }

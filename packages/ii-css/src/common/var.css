@@ -2,7 +2,7 @@
 $black: #000;
 $white: #fff;
 $red: #f44;
-$blue: #38f;
+$blue: #1c91ed;
 $orange: #f85;
 $green: #06bf04;
 $gray: #c9c9c9;
@@ -17,9 +17,9 @@ $active-color: #e8e8e8;
 $background-color: #f8f8f8;
 
 /* button */
-$button-default-color: $text-color;
-$button-default-background-color: $white;
-$button-default-border-color: $border-color;
+$button-default-color: $white;
+$button-default-background-color: $blue;
+$button-default-border-color: $blue;
 $button-primary-color: $white;
 $button-primary-background-color: #4b0;
 $button-primary-border-color: #4b0;
