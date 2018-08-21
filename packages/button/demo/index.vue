@@ -1,6 +1,6 @@
 <template>
   <demo-section>
-    <demo-block :title="$t('title1')">
+    <demo-block title="按钮类型">
       <div class="demo-button-row">
         <ii-button type="default">{{ $t('default') }}</ii-button>
         <ii-button type="primary">{{ $t('primary') }}</ii-button>
@@ -18,8 +18,8 @@
       <ii-button type="danger" plain>{{ $t('danger') }}</ii-button>
     </demo-block>
 
-    <demo-block :title="$t('title2')">
-      <ii-button size="large">{{ $t('large') }}</ii-button>
+    <demo-block title="按钮尺寸">
+      <ii-button type="danger" size="large">{{ $t('large') }}</ii-button>
       <ii-button size="normal">{{ $t('normal') }}</ii-button>
       <ii-button size="small">{{ $t('small') }}</ii-button>
       <ii-button size="mini">{{ $t('mini') }}</ii-button>
