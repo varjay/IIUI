@@ -85,6 +85,10 @@ module.exports = {
                 path: '/switch-cell',
                 title: 'SwitchCell 开关单元格'
               },
+              {
+                path: '/search',
+                title: 'Search 搜索框'
+              },
             ]
           }
         ]

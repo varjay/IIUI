@@ -1,0 +1,54 @@
+@import './common/var.css';
+
+.ii-search {
+  display: flex;
+  padding: 0.34em 0.7rem;
+  align-items: center;
+  box-sizing: border-box;
+
+  .ii-icon {
+    vertical-align: middle;
+    color: $gray-dark;
+  }
+
+  &--show-action {
+    padding-right: 0;
+  }
+  input {
+    border: none;
+    margin-left: .2em;
+    font-size: .75em;
+    border-radius: 0;
+    -webkit-appearance: none;
+    line-height: 100%;
+    flex: 1;
+    line-height: 1.6em;
+    padding: 0;
+    /*width: 100%;*/
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      display: none;
+    }
+  }
+
+  &__input-container {
+    background: $white;
+    border-radius: .2em;
+    overflow: hidden;
+    flex: 1;
+    padding: .1em .4em;
+    display: flex;
+  }
+  &__action {
+    padding: 0 10px;
+    font-size: .75em;
+    line-height: 30px;
+    color: $gray-darker;
+
+    &:active {
+      background-color: $active-color;
+    }
+  }
+}

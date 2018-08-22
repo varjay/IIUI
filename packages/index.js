@@ -7,6 +7,7 @@ import Icon from './icon';
 import ImagePreview from './image-preview';
 import Loading from './loading';
 import Locale from './locale';
+import Search from './search';
 import Switch from './switch';
 import SwitchCell from './switch-cell';
 
@@ -15,7 +16,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.19';
+const version = '0.0.20';
 const components = [
   Button,
   Cell,
@@ -25,6 +26,7 @@ const components = [
   ImagePreview,
   Loading,
   Locale,
+  Search,
   Switch,
   SwitchCell
 ];
@@ -51,6 +53,7 @@ export {
   ImagePreview,
   Loading,
   Locale,
+  Search,
   Switch,
   SwitchCell
 };
