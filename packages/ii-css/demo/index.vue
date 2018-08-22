@@ -4,8 +4,28 @@
       <div class="ii-ellipsis">'当文字超出容器宽度之后，后面的内容会省略掉，以...结尾'</div>
     </demo-block>
 
-    <demo-block :title="'1px 边框'">
-      <div class="ii-hairline--top" />
+    <demo-block :title="'1px 上边框'">
+      <div class="demoline ii-hairline--top" />
+    </demo-block>
+
+    <demo-block :title="'1px 下边框'">
+      <div class="demoline ii-hairline--bottom" />
+    </demo-block>
+
+    <demo-block :title="'1px 左边框'">
+      <div class="demoline ii-hairline--left" />
+    </demo-block>
+
+    <demo-block :title="'1px 右边框'">
+      <div class="demoline ii-hairline--right" />
+    </demo-block>
+
+    <demo-block :title="'1px 上下边框'">
+      <div class="demoline ii-hairline--top-bottom" />
+    </demo-block>
+
+    <demo-block title="全边框">
+      <div class="demoline ii-hairline--surround"/>
     </demo-block>
 
     <demo-block :title="'动画'">
@@ -33,19 +53,16 @@ export default {
 
 <style lang="postcss">
 .demo-ii-css {
+  .demoline {
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
   .ii-ellipsis {
     font-size: 13px;
     margin-left: 15px;
     max-width: 250px;
-  }
-
-  .ii-hairline--top {
-    height: 30px;
-    background-color: #fff;
-
-    &::after {
-      top: 15px;
-    }
   }
 
   .ii-col {
