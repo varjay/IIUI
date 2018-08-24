@@ -89,6 +89,10 @@ module.exports = {
                 path: '/search',
                 title: 'Search 搜索框'
               },
+              {
+                path: '/checkbox',
+                title: 'Checkbox 复选框'
+              },
             ]
           }
         ]

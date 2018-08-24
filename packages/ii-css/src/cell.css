@@ -48,6 +48,10 @@
     vertical-align: middle;
     font-size: .65em;
     color: $gray-dark;
+    .ii-checkbox {
+      justify-content: flex-end;
+      font-size: 1.53846em;
+    }
     &--alone {
       text-align: left;
     }

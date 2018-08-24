@@ -4,6 +4,7 @@ import { wrapper } from './demo-common';
 export default {
   'button': () => wrapper(import('../../packages/button/demo'), 'button'),
   'cell': () => wrapper(import('../../packages/cell/demo'), 'cell'),
+  'checkbox': () => wrapper(import('../../packages/checkbox/demo'), 'checkbox'),
   'example': () => wrapper(import('../../packages/example/demo'), 'example'),
   'icon': () => wrapper(import('../../packages/icon/demo'), 'icon'),
   'ii-css': () => wrapper(import('../../packages/ii-css/demo'), 'ii-css'),

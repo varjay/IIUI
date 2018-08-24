@@ -15,6 +15,8 @@ export default {
   'button.zh-CN': () => import('../../packages/button/zh-CN.md'),
   'cell.en-US': () => import('../../packages/cell/en-US.md'),
   'cell.zh-CN': () => import('../../packages/cell/zh-CN.md'),
+  'checkbox.en-US': () => import('../../packages/checkbox/en-US.md'),
+  'checkbox.zh-CN': () => import('../../packages/checkbox/zh-CN.md'),
   'example.en-US': () => import('../../packages/example/en-US.md'),
   'example.zh-CN': () => import('../../packages/example/zh-CN.md'),
   'icon.en-US': () => import('../../packages/icon/en-US.md'),
