@@ -93,6 +93,10 @@ module.exports = {
                 path: '/checkbox',
                 title: 'Checkbox 复选框'
               },
+              {
+                path: '/swipe',
+                title: 'Swipe 轮播'
+              },
             ]
           }
         ]

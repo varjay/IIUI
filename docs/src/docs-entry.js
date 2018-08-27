@@ -31,6 +31,8 @@ export default {
   'locale.zh-CN': () => import('../../packages/locale/zh-CN.md'),
   'search.en-US': () => import('../../packages/search/en-US.md'),
   'search.zh-CN': () => import('../../packages/search/zh-CN.md'),
+  'swipe.en-US': () => import('../../packages/swipe/en-US.md'),
+  'swipe.zh-CN': () => import('../../packages/swipe/zh-CN.md'),
   'switch.en-US': () => import('../../packages/switch/en-US.md'),
   'switch.zh-CN': () => import('../../packages/switch/zh-CN.md'),
   'switch-cell.en-US': () => import('../../packages/switch-cell/en-US.md'),
