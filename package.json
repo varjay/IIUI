@@ -1,6 +1,6 @@
 {
   "name": "iiui",
-  "version": "0.0.26",
+  "version": "0.0.28",
   "description": "Lightweight Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
