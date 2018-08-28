@@ -19,7 +19,7 @@
     @click="onClick"
   >
     <span :class="b('text')">
-      <slot>{{ text }}</slot>
+      <em><slot>{{ text }}</slot></em>
     </span>
   </component>
 </template>

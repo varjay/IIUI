@@ -1,0 +1,49 @@
+@import '../common/var.css';
+
+@define-mixin thinline $border-retina-color: $border-color {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  background-image: -webkit-linear-gradient(90deg,$border-retina-color,$border-retina-color 50%,transparent 0);
+}
+
+[class*='ii-thinline'] {
+  position: relative;
+
+  &::after {
+    @mixin thinline;
+  }
+}
+
+.ii-thinline {
+  &--top::after {
+    top: 0;
+    width: 100%;
+    height: 1px;
+  }
+
+  &--left::after {
+    border-left-width: 1px;
+  }
+
+  &--right::after {
+    border-right-width: 1px;
+  }
+
+  &--bottom::after {
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+
+  &--top-bottom::after {
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+
+  &--surround::after {
+    border-width: 1px;
+  }
+}

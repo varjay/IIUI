@@ -9,6 +9,7 @@
   .ii-icon {
     vertical-align: middle;
     color: $gray-dark;
+    height: 1.3em;
   }
 
   &--show-action {
@@ -17,13 +18,14 @@
   input {
     border: none;
     margin-left: .2em;
+    margin-top: 0.08em;
     font-size: .75em;
     border-radius: 0;
     -webkit-appearance: none;
-    line-height: 100%;
     flex: 1;
     line-height: 1.6em;
     padding: 0;
+    height: 1.4em;
     /*width: 100%;*/
     &::-webkit-search-decoration,
     &::-webkit-search-cancel-button,
@@ -35,11 +37,12 @@
 
   &__input-container {
     background: $white;
-    border-radius: .2em;
     overflow: hidden;
     flex: 1;
-    padding: .1em .4em;
+    border-radius: 1.3em;
+    padding: 0 .4em;
     display: flex;
+    height: 1.3em;
   }
   &__action {
     padding: 0 10px;

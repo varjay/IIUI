@@ -4,6 +4,14 @@
       <div class="ii-ellipsis">'当文字超出容器宽度之后，后面的内容会省略掉，以...结尾'</div>
     </demo-block>
 
+    <demo-block :title="'1px 上边框 background 实现'">
+      <div class="demoline ii-thinline--top" />
+    </demo-block>
+
+    <demo-block :title="'1px 下边框 background 实现'">
+      <div class="demoline ii-thinline--bottom" />
+    </demo-block>
+
     <demo-block :title="'1px 上边框'">
       <div class="demoline ii-hairline--top" />
     </demo-block>
