@@ -5,6 +5,7 @@ import CellGroup from './cell-group';
 import Checkbox from './checkbox';
 import CheckboxGroup from './checkbox-group';
 import Example from './example';
+import Field from './field';
 import Icon from './icon';
 import ImagePreview from './image-preview';
 import Loading from './loading';
@@ -20,7 +21,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.28';
+const version = '0.0.29';
 const components = [
   Button,
   Cell,
@@ -28,6 +29,7 @@ const components = [
   Checkbox,
   CheckboxGroup,
   Example,
+  Field,
   Icon,
   ImagePreview,
   Loading,
@@ -59,6 +61,7 @@ export {
   Checkbox,
   CheckboxGroup,
   Example,
+  Field,
   Icon,
   ImagePreview,
   Loading,

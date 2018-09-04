@@ -52,6 +52,9 @@
       justify-content: flex-end;
       font-size: 1.53846em;
     }
+    .ii-field__body {
+      font-size: 1.2em;
+    }
     &--alone {
       text-align: left;
     }

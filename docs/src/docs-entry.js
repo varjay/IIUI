@@ -19,6 +19,8 @@ export default {
   'checkbox.zh-CN': () => import('../../packages/checkbox/zh-CN.md'),
   'example.en-US': () => import('../../packages/example/en-US.md'),
   'example.zh-CN': () => import('../../packages/example/zh-CN.md'),
+  'field.en-US': () => import('../../packages/field/en-US.md'),
+  'field.zh-CN': () => import('../../packages/field/zh-CN.md'),
   'icon.en-US': () => import('../../packages/icon/en-US.md'),
   'icon.zh-CN': () => import('../../packages/icon/zh-CN.md'),
   'ii-css.en-US': () => import('../../packages/ii-css/en-US.md'),

@@ -6,6 +6,7 @@ export default {
   'cell': () => wrapper(import('../../packages/cell/demo'), 'cell'),
   'checkbox': () => wrapper(import('../../packages/checkbox/demo'), 'checkbox'),
   'example': () => wrapper(import('../../packages/example/demo'), 'example'),
+  'field': () => wrapper(import('../../packages/field/demo'), 'field'),
   'icon': () => wrapper(import('../../packages/icon/demo'), 'icon'),
   'ii-css': () => wrapper(import('../../packages/ii-css/demo'), 'ii-css'),
   'image-preview': () => wrapper(import('../../packages/image-preview/demo'), 'image-preview'),

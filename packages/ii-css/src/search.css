@@ -2,31 +2,30 @@
 
 .ii-search {
   display: flex;
-  padding: 0.34em 0.7rem;
+  padding: .4em 0.7rem;
   align-items: center;
   box-sizing: border-box;
 
-  .ii-icon {
-    vertical-align: middle;
-    color: $gray-dark;
-    height: 1.3em;
+  .ii-cell {
+    flex: 1;
+    padding: .1em .2rem;
+    border-radius: 1.25em;
+
+    &__left-icon {
+      color: $gray-dark;
+      transform: scale(.85);
+      margin-right: .2em;
+    }
+    .ii-field__body {
+      font-size: 1em;
+    }
   }
 
   &--show-action {
     padding-right: 0;
   }
+
   input {
-    border: none;
-    margin-left: .2em;
-    margin-top: 0.08em;
-    font-size: .75em;
-    border-radius: 0;
-    -webkit-appearance: none;
-    flex: 1;
-    line-height: 1.6em;
-    padding: 0;
-    height: 1.4em;
-    /*width: 100%;*/
     &::-webkit-search-decoration,
     &::-webkit-search-cancel-button,
     &::-webkit-search-results-button,
@@ -35,18 +34,9 @@
     }
   }
 
-  &__input-container {
-    background: $white;
-    overflow: hidden;
-    flex: 1;
-    border-radius: 1.3em;
-    padding: 0 .4em;
-    display: flex;
-    height: 1.3em;
-  }
   &__action {
     padding: 0 10px;
-    font-size: .75em;
+    font-size: 14px;
     line-height: 30px;
     color: $gray-darker;
 

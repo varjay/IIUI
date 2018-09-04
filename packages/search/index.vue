@@ -1,24 +1,24 @@
 <template>
   <div :class="b({ 'show-action': showAction })" :style="{ background }">
-    <div :class="b('input-container')">
-      <ii-icon name="search"></ii-icon>
-      <input
-        v-bind="$attrs"
-        v-on="listeners"
-        type="search"
-        :value="value"
-        ref="input"
-      />
-    </div>
+    <ii-field
+      v-bind="$attrs"
+      v-on="listeners"
+      clearable
+      type="search"
+      :value="value"
+      :border="false"
+      left-icon="search"
+    />
     <div v-if="showAction" :class="b('action')">
       <slot name="action">
-        <div @click="onBack">取消</div>
+        <div @click="onBack">{{ $t('cancel') }}</div>
       </slot>
     </div>
   </div>
 </template>
 
 <script>
+import Field from '../field';
 import create from '../utils/create';
 
 export default create({
@@ -26,12 +26,16 @@ export default create({
 
   inheritAttrs: false,
 
+  components: {
+    Field
+  },
+
   props: {
     value: String,
     showAction: Boolean,
     background: {
       type: String,
-      default: '#f2f2f2'
+      default: '#f5f6f9'
     }
   },
 
@@ -47,7 +51,7 @@ export default create({
 
   methods: {
     onInput(value) {
-      this.$emit('input', event.target.value);
+      this.$emit('input', value);
     },
 
     onKeypress(event) {

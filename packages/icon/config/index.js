@@ -17,5 +17,9 @@ module.exports = {
       src: '进入箭头.svg',
       css: 'success'
     },
+    {
+      src: '进入箭头.svg',
+      css: 'clear'
+    },
   ]
 };

@@ -97,6 +97,10 @@ module.exports = {
                 path: '/swipe',
                 title: 'Swipe 轮播'
               },
+              {
+                path: '/field',
+                title: 'Field 输入框'
+              },
             ]
           }
         ]
