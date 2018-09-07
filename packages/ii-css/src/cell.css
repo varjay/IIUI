@@ -68,8 +68,8 @@
   }
 
   &__right-icon {
-    color: $gray-dark;
-    font-size: .8em !important;
+    color: #d2d3d6;
+    font-size: .7em !important;
     line-height: 1.15em;
     margin-left: .7em;
 

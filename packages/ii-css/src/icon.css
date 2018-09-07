@@ -3,18 +3,18 @@
 /*ii-icon*/
 @font-face {
   font-family: 'ii-icon';  /* project id 798036 */
-  src: url('//at.alicdn.com/t/font_798036_m2y3qi2qo8q.eot');
-  src: url('//at.alicdn.com/t/font_798036_m2y3qi2qo8q.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_798036_m2y3qi2qo8q.woff') format('woff'),
-  url('//at.alicdn.com/t/font_798036_m2y3qi2qo8q.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_798036_m2y3qi2qo8q.svg#ii-icon') format('svg');
+  src: url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.eot');
+  src: url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.svg#ii-icon') format('svg');
 }
 
 .ii-icon {
   position: relative;
   display: inline-block;
   font: normal normal normal 14px/1 "ii-icon";
-  font-size: inherit;
+  font-size: 0.8em;
   text-rendering: auto;
 
   &__info {
