@@ -38,6 +38,12 @@
         <ii-cell :title="$t('cell')" icon="settings" is-link />
         <ii-cell :title="$t('cell')">
         </ii-cell>
+        <ii-cell :title="'头'" is-link>
+          <select>
+            <option value="1">第一个选项</option>
+            <option value="2">第二个选项</option>
+          </select>
+        </ii-cell>
       </ii-cell-group>
     </demo-block>
   </demo-section>
