@@ -12,10 +12,12 @@
 
 .ii-icon {
   position: relative;
-  display: inline-block;
   font: normal normal normal 14px/1 "ii-icon";
   font-size: 0.8em;
   text-rendering: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &__info {
     color: #fff;
