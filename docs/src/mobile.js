@@ -27,7 +27,7 @@ router.afterEach(() => {
 });
 
 window.vueRouter = router;
-
+window.vue = Vue
 if (process.env.NODE_ENV !== 'production') {
   Vue.config.productionTip = false;
 }

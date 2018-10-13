@@ -1,6 +1,10 @@
 <template>
-  <div class="image-enlargement">
-    <transition
+  <div v-if="image" class="image-enlargement">
+    <div class="bg"></div>
+    <div class="image" @click="hideself">
+      <img :src="image.src">
+    </div>
+    <!-- <transition
       @enter="enter"
       @after-enter="afterEnter"
     >
@@ -19,17 +23,37 @@
         alt=""
       >
     </transition>
-    <!--背景-->
     <div ref="box" :style="{zIndex:'100',width:'100vw',height:'100vh',opacity:opacityNum,backgroundColor:'#050505',transition : 'all 0.6s ease'}">
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import create from '../utils/create';
+import vue from 'vue'
+
+let image = ''
+vue.directive('preview', {
+  inserted: function (el, binding) {
+    el.func = function () {
+      if (binding.value === '1' || binding.value === 1 || binding.value === true) {
+        image = {
+          src: this.src,
+          w: this.width,
+          h: this.height,
+        }
+      }
+    }
+    el.addEventListener('click', el.func, false)
+  },
+  unbind: function (el) {
+    el.removeEventListener('click', el.func)
+  },
+})
 
 export default create({
   name: 'image-preview',
+  props: ['imgSrc', 'topNum', 'leftNum', 'widthNum', 'heightNum'],
   data () {
     return {
       time: '0.3',
@@ -38,17 +62,25 @@ export default create({
       num: '',
       firstPageYNum: '',
       opacityNum: 0,
-      status: ''
+      status: '',
+      image,
+      t: null,
     }
   },
-  props: ['imgSrc', 'topNum', 'leftNum', 'widthNum', 'heightNum'],
   mounted () {
+    setInterval(() => {
+      this.image = image
+    }, 20)
     // 在点击开始后执行
-    setTimeout(() => {
-      this.show = !this.show
-    }, 100)
+    // setTimeout(() => {
+    //   this.show = !this.show
+    // }, 100)
   },
   methods: {
+    hideself() {
+      this.image = ''
+      image = ''
+    },
     enter (el, done) {
       // 刷新动画效果
       // 动画完成后的样式

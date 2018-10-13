@@ -1,10 +1,24 @@
 .image-enlargement {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   z-index: 99;
-  img {
+  top: 0;
+  .bg {
+    background: black;
     position: absolute;
-    z-index: 999;
+    height: 100%;
+    width: 100%;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img {
+      width: 100%;
+    }
   }
 }

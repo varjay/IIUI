@@ -33,7 +33,7 @@ if (process.env.NODE_ENV !== 'production') {
   Vue.config.productionTip = false;
 }
 
-new Vue({ // eslint-disable-line
+window.vue = new Vue({ // eslint-disable-line
   render: h => h(App),
   router,
   el: '#app'
