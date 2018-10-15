@@ -101,6 +101,10 @@ module.exports = {
                 path: '/field',
                 title: 'Field 输入框'
               },
+              {
+                path: '/actionsheet',
+                title: 'Actionsheet 上拉菜单'
+              },
             ]
           }
         ]

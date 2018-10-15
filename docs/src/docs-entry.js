@@ -11,6 +11,8 @@ export default {
   'style-guide.zh-CN': () => import('../markdown/style-guide.zh-CN.md'),
   'theme.en-US': () => import('../markdown/theme.en-US.md'),
   'theme.zh-CN': () => import('../markdown/theme.zh-CN.md'),
+  'actionsheet.en-US': () => import('../../packages/actionsheet/en-US.md'),
+  'actionsheet.zh-CN': () => import('../../packages/actionsheet/zh-CN.md'),
   'button.en-US': () => import('../../packages/button/en-US.md'),
   'button.zh-CN': () => import('../../packages/button/zh-CN.md'),
   'cell.en-US': () => import('../../packages/cell/en-US.md'),

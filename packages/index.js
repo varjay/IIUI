@@ -1,4 +1,5 @@
 // This file is auto gererated by build/build-entry.js
+import Actionsheet from './actionsheet';
 import Button from './button';
 import Cell from './cell';
 import CellGroup from './cell-group';
@@ -21,8 +22,9 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.33';
+const version = '0.0.36';
 const components = [
+  Actionsheet,
   Button,
   Cell,
   CellGroup,
@@ -55,6 +57,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 export {
   install,
   version,
+  Actionsheet,
   Button,
   Cell,
   CellGroup,
