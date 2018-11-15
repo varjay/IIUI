@@ -21,4 +21,12 @@
       width: 100%;
     }
   }
+  .ii-icon {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    pointer-events: none;
+    color: white;
+    font-size: 1.1em;
+  }
 }

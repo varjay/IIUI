@@ -21,5 +21,9 @@ module.exports = {
       src: '进入箭头.svg',
       css: 'clear'
     },
+    {
+      src: '进入箭头.svg',
+      css: 'close'
+    },
   ]
 };

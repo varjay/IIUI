@@ -3,11 +3,11 @@
 /*ii-icon*/
 @font-face {
   font-family: 'ii-icon';  /* project id 798036 */
-  src: url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.eot');
-  src: url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.woff') format('woff'),
-  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_798036_w5zvecwtfhg.svg#ii-icon') format('svg');
+  src: url('//at.alicdn.com/t/font_798036_ylxa0vfwng.eot');
+  src: url('//at.alicdn.com/t/font_798036_ylxa0vfwng.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_798036_ylxa0vfwng.woff') format('woff'),
+  url('//at.alicdn.com/t/font_798036_ylxa0vfwng.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_798036_ylxa0vfwng.svg#ii-icon') format('svg');
 }
 
 .ii-icon {
@@ -61,5 +61,8 @@
 }
 .ii-icon-clear::before {
   content: "\e602";
+}
+.ii-icon-close::before {
+  content: "\e600";
 }
 
