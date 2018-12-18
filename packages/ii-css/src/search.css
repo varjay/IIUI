@@ -2,7 +2,7 @@
 
 .ii-search {
   display: flex;
-  padding: .4em 0.7rem;
+  padding: .3em 0.7rem;
   align-items: center;
   box-sizing: border-box;
 
@@ -10,15 +10,17 @@
     flex: 1;
     padding: .1em .2rem;
     border-radius: 1.25em;
-
     &__left-icon {
       color: $gray-dark;
       transform: scale(.85);
       margin-right: .2em;
     }
     .ii-field__body {
-      font-size: 1em;
+      font-size: 1.1em;
     }
+  }
+  .ii-cell__value {
+    color: #333;
   }
 
   &--show-action {
@@ -35,9 +37,9 @@
   }
 
   &__action {
-    padding: 0 10px;
-    font-size: 14px;
-    line-height: 30px;
+    padding: 0 0.8em;
+    font-size: 0.75em;
+    line-height: 2.2em;
     color: $gray-darker;
 
     &:active {
