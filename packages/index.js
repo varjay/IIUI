@@ -22,7 +22,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.39';
+const version = '0.0.50';
 const components = [
   Actionsheet,
   Button,
