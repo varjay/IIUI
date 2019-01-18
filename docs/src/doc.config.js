@@ -105,6 +105,10 @@ module.exports = {
                 path: '/actionsheet',
                 title: 'Actionsheet 上拉菜单'
               },
+              {
+                path: '/password-input',
+                title: 'PasswordInput 密码输入框'
+              },
             ]
           }
         ]

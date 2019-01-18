@@ -11,6 +11,7 @@ import Icon from './icon';
 import ImagePreview from './image-preview';
 import Loading from './loading';
 import Locale from './locale';
+import PasswordInput from './password-input';
 import Search from './search';
 import Swipe from './swipe';
 import SwipeItem from './swipe-item';
@@ -36,6 +37,7 @@ const components = [
   ImagePreview,
   Loading,
   Locale,
+  PasswordInput,
   Search,
   Swipe,
   SwipeItem,
@@ -69,6 +71,7 @@ export {
   ImagePreview,
   Loading,
   Locale,
+  PasswordInput,
   Search,
   Swipe,
   SwipeItem,

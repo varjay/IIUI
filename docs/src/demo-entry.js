@@ -12,6 +12,7 @@ export default {
   'ii-css': () => wrapper(import('../../packages/ii-css/demo'), 'ii-css'),
   'image-preview': () => wrapper(import('../../packages/image-preview/demo'), 'image-preview'),
   'loading': () => wrapper(import('../../packages/loading/demo'), 'loading'),
+  'password-input': () => wrapper(import('../../packages/password-input/demo'), 'password-input'),
   'search': () => wrapper(import('../../packages/search/demo'), 'search'),
   'swipe': () => wrapper(import('../../packages/swipe/demo'), 'swipe'),
   'switch': () => wrapper(import('../../packages/switch/demo'), 'switch'),

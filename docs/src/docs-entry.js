@@ -33,6 +33,8 @@ export default {
   'loading.zh-CN': () => import('../../packages/loading/zh-CN.md'),
   'locale.en-US': () => import('../../packages/locale/en-US.md'),
   'locale.zh-CN': () => import('../../packages/locale/zh-CN.md'),
+  'password-input.en-US': () => import('../../packages/password-input/en-US.md'),
+  'password-input.zh-CN': () => import('../../packages/password-input/zh-CN.md'),
   'search.en-US': () => import('../../packages/search/en-US.md'),
   'search.zh-CN': () => import('../../packages/search/zh-CN.md'),
   'swipe.en-US': () => import('../../packages/swipe/en-US.md'),
