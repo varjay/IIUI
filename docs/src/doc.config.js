@@ -109,6 +109,10 @@ module.exports = {
                 path: '/password-input',
                 title: 'PasswordInput 密码输入框'
               },
+              {
+                path: '/popup',
+                title: 'popup 弹出层'
+              },
             ]
           }
         ]

@@ -12,6 +12,7 @@ import ImagePreview from './image-preview';
 import Loading from './loading';
 import Locale from './locale';
 import PasswordInput from './password-input';
+import Popup from './popup';
 import Search from './search';
 import Swipe from './swipe';
 import SwipeItem from './swipe-item';
@@ -23,7 +24,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '0.0.50';
+const version = '1.0.1';
 const components = [
   Actionsheet,
   Button,
@@ -38,6 +39,7 @@ const components = [
   Loading,
   Locale,
   PasswordInput,
+  Popup,
   Search,
   Swipe,
   SwipeItem,
@@ -72,6 +74,7 @@ export {
   Loading,
   Locale,
   PasswordInput,
+  Popup,
   Search,
   Swipe,
   SwipeItem,
