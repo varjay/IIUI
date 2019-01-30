@@ -58,7 +58,7 @@ export default create({
       image = ''
     },
     move(e) {
-      e.preventDefault()
+      // e.preventDefault()
     }
   }
 });
