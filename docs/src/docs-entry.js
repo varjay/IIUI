@@ -27,8 +27,6 @@ export default {
   'icon.zh-CN': () => import('../../packages/icon/zh-CN.md'),
   'ii-css.en-US': () => import('../../packages/ii-css/en-US.md'),
   'ii-css.zh-CN': () => import('../../packages/ii-css/zh-CN.md'),
-  'image-preview.en-US': () => import('../../packages/image-preview/en-US.md'),
-  'image-preview.zh-CN': () => import('../../packages/image-preview/zh-CN.md'),
   'loading.en-US': () => import('../../packages/loading/en-US.md'),
   'loading.zh-CN': () => import('../../packages/loading/zh-CN.md'),
   'locale.en-US': () => import('../../packages/locale/en-US.md'),

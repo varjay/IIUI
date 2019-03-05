@@ -1,6 +1,6 @@
 {
   "name": "iiui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight Mobile UI Components built on Vue",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -28,8 +28,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "open test/coverage/index.html",
-    "release": "sh build/release.sh",
-    "precommit": "lint-staged"
+    "release": "sh build/release.sh"
   },
   "lint-staged": {
     "*.{js,vue}": [

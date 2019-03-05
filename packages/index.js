@@ -8,7 +8,6 @@ import CheckboxGroup from './checkbox-group';
 import Example from './example';
 import Field from './field';
 import Icon from './icon';
-import ImagePreview from './image-preview';
 import Loading from './loading';
 import Locale from './locale';
 import PasswordInput from './password-input';
@@ -24,7 +23,7 @@ var em = (window.em = window.em = Math.sqrt((rem - 20) * 0.9) + 20)
 document.querySelector('html').style.fontSize = rem + 'px'
 document.body.style.fontSize = em + 'px'
 
-const version = '1.0.3';
+const version = '1.0.5';
 const components = [
   Actionsheet,
   Button,
@@ -35,7 +34,6 @@ const components = [
   Example,
   Field,
   Icon,
-  ImagePreview,
   Loading,
   Locale,
   PasswordInput,
@@ -70,7 +68,6 @@ export {
   Example,
   Field,
   Icon,
-  ImagePreview,
   Loading,
   Locale,
   PasswordInput,
